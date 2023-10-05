@@ -1,10 +1,19 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react'
+import { initFlowbite } from 'flowbite'
 import { CgMenuRight, CgClose } from 'react-icons/cg'
 import { MenuTitle } from './Data'
 import Mobile from './Mobile'
 import { AiOutlineHeart, AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai'
-
+import Banner from './Banner'
+import MenuBanner from './MenuBanner'
 function Navigation() {
+
+    useEffect(()=>{
+        
+        initFlowbite();
+
+    }, [])
 
     const [bg, setBg] = useState(false)
     const [mobileNav, setMobileNav] = useState(false)
@@ -72,6 +81,9 @@ function Navigation() {
                     </div>
                 </div>
             </header>
+
+            <Banner/>
+            <MenuBanner/>
 
         </>
     )

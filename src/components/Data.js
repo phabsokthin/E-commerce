@@ -43,8 +43,40 @@ export const ItemTitle =[
         prince3: "$99.99",
         bass: "Bass HeadPhone",
         price4: "$80.00"
+    }   
+]
+
+export const BodyBannerTitle = [
+    {
+        Bluecher: "BLUCHER SHOE",
+        price: "$778,00"
+    },
+    {
+        Men: "MEN'S HARPOON 2 EYE BOOT",
+        price1: "$135.00"
+    },
+    {
+        Brog: "BROGUE SHOE",
+        price2: "$134.00",
+    },
+    {
+        Balet: "BALLET SHOES",
+        price3: "$200.00"
+    },
+    {
+        Rouger: "ROGER DUBUIS",
+        price4: "$275.00"
+    },
+    {
+        Fashion: "FASHION BOOT",
+        price5: "$400.00",
+    },
+    {
+        Eleventor: "ELEVATOR SHOES",
+        price6: "$389.00"
     }
-       
-    
-    
+    ,{
+        Boot: "BOOT SHOE",
+        price7: "$532.00"
+    }
 ]
